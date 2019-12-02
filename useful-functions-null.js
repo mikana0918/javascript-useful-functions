@@ -5,7 +5,7 @@
  *  @return         true / false
  *
  */
- let isset = function(data){
+ function isset(data){
     if(data === "" || data === null || data === undefined){
         return false;
     }else{
